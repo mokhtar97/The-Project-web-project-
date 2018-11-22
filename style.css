@@ -1,0 +1,110 @@
+body{
+	top:0px;
+	right:0px;
+	left:0px;
+	bottom:0px;
+	margin:auto;
+}
+#header
+{
+  
+  height:15%;
+  width:100%;
+  text-align:center;
+  background:silver;
+  float:left;
+}
+#nav
+{
+ margin-top:4%;
+}
+#nav ul li
+{ 
+  list-style-type:none;
+  display:inline;
+  
+}
+#header h1
+{
+  font-size:40px;
+  float:left;
+  margin-left:30%;
+}
+#nav ul a
+{
+  text-decoration:none;
+  font-size:20px;
+  padding:10 15 10 15;
+  background-color:gray;
+  color:white;
+  border-radius:15px;  
+}
+#nav ul a:hover
+{
+ color:blue;
+ text-decoration:underline;
+  padding:1%;
+}
+#logo img
+{
+ height:100%;
+ width:7%;
+ float:left;
+ border-radius:30px;
+ margin-left:1%;
+ 
+}
+#main
+{
+  border:1px solid black;
+  height:650px;  
+  width:100%;
+  background-image:url(2.jpg);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  float:left;
+  margin-top:0px;
+}
+#s1
+{
+ width:47%;
+ float:left;
+}
+#s2
+{
+	width:50%; 
+	float:left;
+	
+}
+#mak
+{
+ background-color:rgba(0,0,0,0.5);
+ font-size:20px;
+ width:50%;
+ height:70%;
+ border-radius:15px;
+ float:left;
+ margin:3%;
+
+}
+#mak input
+{
+ border-radius:10px;
+ height:10%;
+ width:80%;
+ text-align:center;
+ color:red;
+ margin:5%;
+}	
+
+
+#footer
+{
+ width:100%;
+ background:silver;
+ text-align:center;
+ font-size:100%;
+ float:left;
+ 
+}
